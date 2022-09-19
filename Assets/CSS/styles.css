@@ -311,12 +311,12 @@ footer {
     padding-left: 10px;
     margin-left: -10px;
     border-radius: 15px;
-    margin-right: 2px;
+    /* margin-right: 2px; */
 }
 
 .copy-right {
     width: 85%;
-    padding-top: 20px;
+    padding-top: 25px;
     margin: auto;
 }
 
