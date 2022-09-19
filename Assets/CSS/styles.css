@@ -314,6 +314,16 @@ footer {
     margin-right: 2px;
 }
 
+.copy-right {
+    width: 85%;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.copy-right span {
+    color: #a89f9f;
+}
+
 
 /* ----------------------------------Media Queries---------------------------------- */
 
@@ -385,6 +395,9 @@ footer {
     .navlinks a {
         padding: 10px 20px;
         padding: 5px;
+    }
+    .copy-right {
+        width: 90%;
     }
 }
 
