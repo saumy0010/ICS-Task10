@@ -341,40 +341,18 @@ footer {
     .image-txt {
         margin: 0;
     }
-    .image-txt h1 {
-        font-size: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 90%;
     }
-    .image-txt p {
-        font-size: 1rem;
-    }
-    .btn button {
-        font-size: 0.8rem;
-    }
-    .welcome-txt {
-        font-size: 0.8rem;
-    }
-    .dummy-txt {
-        font-size: 0.8rem;
-    }
-    .list ul li {
-        font-size: 0.8rem;
-    }
-    .bottom-txt p {
-        font-size: 0.8rem;
-    }
-    .card-txt h4 {
-        font-size: 0.8rem;
-    }
-    .card-txt p {
-        font-size: 0.8rem;
-    }
+}
+
+@media screen and (max-width: 350px) {
     .footer {
         grid-template-columns: 1fr 1fr;
-    }
-    .bt-card {
-        margin-bottom: 20px;
-    }
-    .bt-card p {
-        font-size: 0.8rem;
+        width: 90%;
     }
 }
