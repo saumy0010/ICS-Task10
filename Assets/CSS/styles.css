@@ -312,6 +312,9 @@ footer {
     .content-inner {
         grid-template-columns: 1fr;
     }
+    .inner-header {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media screen and (max-width: 800px) {
